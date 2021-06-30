@@ -1,0 +1,90 @@
+hello
+$ head -6 7.sh
+#!/bin/sh
+set $date
+shift $1 $2 $3
+# pattern matching
+#$ grep "[bin]*" 7.sh
+#!/bin/sh bin is highlightened
+$ tail -2 7.sh
+# set $date
+# shift $1 $2 $3
+ $sort b.txt
+hello
+$ wc b.txt
+ 2  3 20 b.txt //lines, words and characters 
+ $ cat b.txt | grep hello
+hellohello
+hello
+$tac b.txt
+hellohmm
+hellohello
+$ sed 's/hello/hey/g' b.txt
+heyhey
+hmm
+hey
+$ nl b.txt
+     1  hellohello
+     2  hmm
+     3  hello // nl is used to number the lines of our text data.
+    
+ $ ls -li sumne
+ $ ls -li shell
+$ ls -li c.sh
+$ ln -s sumne mine
+$ ls -li sumne mine
+$ ls -s a.txt my
+$ cat a.txt
+$ cat my
+$ mv a.txt renamed
+$ cat renamed
+$ mv renamed a.txt
+$ $ ln b.txt hl1
+$ ls -li b.txt hl1
+
+$ ls -li b.txt
+$ ls -li
+$ ls -la
+$ ls -lai
+$ cat abc.txt
+fghjdk
+$ grep -i "fgh" abc.txt
+fghjdk
+ashi@ashi:~/ASHI/shell$ grep -c "fgh" abc.txt
+1
+ashi@ashi:~/ASHI/shell$ grep -l "fgh"*
+^[[A^Z
+[1]+  Stopped                 grep --color=auto -l "fgh"*
+ashi@ashi:~/ASHI/shell$ grep -l "fgh"
+^[[A^[[A^Z
+[2]+  Stopped                 grep --color=auto -l "fgh"
+ashi@ashi:~/ASHI/shell$ grep -l "fgh"* abc.txt a.txt
+abc.txt
+ashi@ashi:~/ASHI/shell$ grep -w "fgh" abc.txt
+ashi@ashi:~/ASHI/shell$ grep -w "fgh" abc.txt
+ashi@ashi:~/ASHI/shell$ grep -w "fghjdk" abc.txt
+fghjdk
+ashi@ashi:~/ASHI/shell$ grep -o "fgh" abc.txt
+fgh
+ashi@ashi:~/ASHI/shell$ grep -n "fgh" abc.txt
+1:fghjdk
+ashi@ashi:~/ASHI/shell$ grep -v "fgh" abc.txt
+ashi@ashi:~/ASHI/shell$ grep -v "c" abc.txt
+fghjdk
+ashi@ashi:~/ASHI/shell$ grep "^fgh" abc.txt
+fghjdk
+ashi@ashi:~/ASHI/shell$ grep "fgh$" abc.txt
+ashi@ashi:~/ASHI/shell$ grep "jdk$" abc.txt
+fghjdk
+ashi@ashi:~/ASHI/shell$ grep "fgh$" abc.txt
+ashi@ashi:~/ASHI/shell$ cat abc.txt
+fghjdk
+$ echo 2 * 3 > 5 is a valid inequality.
+ashi@ashi:~/ASHI/shell$ echo '2 * 3 > 5 is a valid inequality.'
+2 * 3 > 5 is a valid inequality.
+$ echo 2 \* 3 \> 5 is a valid inequality.
+2 * 3 > 5 is a valid inequality.
+shell grep "\a*" xyz.txt
+asdfghjkl;
+➜  shell cat xyz.txt
+asdfghjkl;% 

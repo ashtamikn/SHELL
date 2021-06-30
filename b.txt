@@ -1,0 +1,7 @@
+binsdfghjkl;
+yhjbj
+ashi
+$ sort b.txt
+ashi
+binsdfghjkl;
+yhjbj
